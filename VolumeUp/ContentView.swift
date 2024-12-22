@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct CustomSlider: View {
-  @State private var sliderProgress: CGFloat = .zero
+  @State private var sliderProgress: CGFloat = 0.5
   @State private var dragOffset: CGFloat = .zero
   @State private var lastDragOffset: CGFloat = .zero
   private let height = 150.0
